@@ -1,0 +1,36 @@
+
+hotele1
+
+
+
+df=pd.read_excel('turystyka1.xlsx',header=none)
+print(df)
+dfT=df.transpose()
+print(dfT)
+
+print(dfT.columns)
+dfT.columns=['kategoria hotelu','rok','ilosc')
+print(dfT)
+print(dfT['kategoria hotelu'].unique())
+
+
+
+df=pd,read_csv('nieruchomosci2.csv', header=None,sep=;',decimal= cos tam
+print(df)
+
+df=df.transpose()
+
+print("")
+
+print(df)
+
+df=df.reset_index()
+print(df)
+
+df.drop(axis=1,columns-'index',inplace=True)
+df.columns=['opis','metraz','rok','cena']
+print(df)
+
+hotele2
+
+df=pd.read
